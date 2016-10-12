@@ -1,20 +1,23 @@
 <html>
-    <head>
+
+<head>
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    </head>
-    <body ng-app="App">
+</head>
+
+<body ng-app="App">
 	<h1>TS Dynamic Form</h1>
-		
+
 	<div class="container" ng-view>
-			
+
 	</div>
-		
-	<script src="scripts/dynamic-forms.js"></script>
-	<script src="scripts/ui-bootstrap-tpls-2.1.4.min.js"></script>
+
 	<script src="node_modules/angular/angular.js"></script>
+	<script src="scripts/ui-bootstrap-tpls-2.1.4.min.js"></script>
 	<script src="node_modules/angular-route/angular-route.js"></script>
 	<script src="app/app.module.js"></script>
 	<script src="app/app.route.js"></script>
-	<script src="app/controllers/create.js"></script>			
-    </body>
+	<script src="app/controllers/create.js"></script>
+	<script src="app/directives/app.directive.js"></script>
+</body>
+
 </html>

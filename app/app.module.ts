@@ -4,5 +4,5 @@
 
 module app{
     "use strict";
-    angular.module("App", ["ngRoute",'dynform', 'ui.bootstrap']);
+    angular.module("App", ["ngRoute", 'ui.bootstrap']);
 }

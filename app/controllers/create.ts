@@ -8,10 +8,14 @@ module app {
          
         constructor(
             $http: ng.IHttpService,
-            modals: ng.ui.bootstrap.IModalService,
-            dynForm: any
+            $uibModal: ng.ui.bootstrap.IModalService
             ) {
             this._httpService = $http;
+
+
+
+
+
         }
     }
 
